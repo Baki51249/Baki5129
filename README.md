@@ -1,5 +1,3 @@
-:
-
 👋 Olá! Sou Gabriel, um entusiasta da tecnologia e apaixonado por desenvolvimento de software. Tenho experiência em [suas principais habilidades ou tecnologias], e estou sempre em busca de novos desafios para aprimorar minhas habilidades.
 
 🚀 Atualmente, estou focado em [projeto pessoal ou área específica de desenvolvimento], onde aplico meu conhecimento para criar soluções inovadoras e eficientes. Além disso, sou um grande defensor do código aberto e acredito no poder da colaboração para impulsionar a inovação.
