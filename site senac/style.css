@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&display=swap');
+
+*{
+    font-family: 'Kanit', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #EFEFEF;
+}
+
+.icone{
+    max-width: 160px;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+header ul{
+    display: flex;
+    gap: 50px;
+}
+
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+h1{
+    background-color: #365FA0;
+    padding: 12px;
+    border-radius: 5px;
+    color:#FEA809;
+    text-align: center;
+    font-size: 48px;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+}
+
+.conteudo ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.conteudo li{
+    text-align: center;
+}
+
+.conteudo form{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.conteudo input, .conteudo select{
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    color: #686868;
+}
+
+.conteudo button{
+    background-color: #365FA0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*
+body{
+    filter: blur(10px);
+    transition: 1s ease;
+}
+
+body:hover{
+    filter: blur(0px);
+}
+*/
+.custom-loader {
+    width: 40px;
+    height: 10px;
+    color: #766DF4;
+    background:
+      radial-gradient(farthest-side,currentColor 90%,#0000) left  /10px 10px,
+      radial-gradient(farthest-side,currentColor 90%,#0000) center/10px 10px,
+      radial-gradient(farthest-side,currentColor 90%,#0000) right /10px 10px,
+      linear-gradient(currentColor 0 0) center/100% 4px; 
+    background-repeat: no-repeat;
+    position: relative;
+    animation: s6 2s infinite linear;
+  }
+  .custom-loader:before,
+  .custom-loader:after {
+    content: "";
+    position: absolute;
+    inset:0;
+    background:inherit;
+    animation:inherit;
+    --s:calc(50% - 5px);
+    animation-direction: reverse;
+  }
+  .custom-loader:after {
+    --s:calc(5px - 50%);
+  }
+  
+  @keyframes s6 {
+    0%   {transform: translate(var(--s,0)) rotate(0)}
+    100% {transform: translate(var(--s,0)) rotate(1turn)}
+  }
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365FA0;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); }
+	80%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	100% {
+		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #FFFFFF};

@@ -1,0 +1,31 @@
+
+.contato {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #2E2E2E;
+    padding: 32px;
+    border-radius: 5px;
+    gap: 20px;
+    color: #FFFFFF;
+}
+iframe{
+    max-width: 100%;
+
+}
+.contato-dados{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    text-align: center;
+   
+}
+
+.contato-redes{
+    display: flex;
+    gap: 12px;
+
+}

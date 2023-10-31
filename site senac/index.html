@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senac</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="" class="icone">
+        <ul>
+            <a href="index.html">
+                <li class="active">Início</li>
+            </a>
+            <a href="cursos.html">
+                <li>Cursos</li>
+            </a>
+            <a href="contato.html">
+                <li>Contato</li>
+            </a>
+        </ul>
+    </header>
+    <main>
+        <h1>Cadastre-se para nossos cursos</h1>
+        <div class="conteudo">
+            <ul>
+                <li>
+                    <img src="opcoes.svg" alt="" class="icone">
+                    <h2>Muitas opções</h2>
+                    <p>Grande variedade de cursos</p>
+                </li>
+                <li>
+                    <img src="gratuidade.svg" alt="" class="icone">
+                    <h2>Gratuidade</h2>
+                    <p>Acessível para todos</p>
+                </li>
+                <li>
+                    <img src="certificado.svg" alt="" class="icone">
+                    <h2>Certificado</h2>
+                    <p>Válido em todo o país</p>
+                </li>
+            </ul>
+            <form action="http://localhost:7070/" method="POST">
+                <input type="text" placeholder="Nome" name="nome">
+                <input type="email" placeholder="E-mail" name="email">
+                <input type="number" placeholder="Idade" name="idade">
+                <select name="" id="">
+                    <option disabled selected value="">Escolha seu curso</option>
+                    <option value="">Programação</option>
+                    <option value="">Administração</option>
+                    <option value="">Enfermagem</option>
+                </select>
+                <button>Enviar</button>
+            </form>
+            
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
